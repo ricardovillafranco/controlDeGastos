@@ -1,0 +1,24 @@
+{
+  "name": "controldegastos",
+  "version": "1.0.0",
+  "description": "Página web que te permite llevar un registro detallado de los gastos así como su nivel de prioridad, verde (gastos necesarios), naranja()\u001b[Dgastos",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovillafranco/controlDeGastos.git"
+  },
+  "author": "Ricardo Thomas Lopez Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardovillafranco/controlDeGastos/issues"
+  },
+  "homepage": "https://github.com/ricardovillafranco/controlDeGastos#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
